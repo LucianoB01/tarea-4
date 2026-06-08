@@ -1,59 +1,37 @@
-# Tarea4
+# Tarea 4 - Proyecto Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.11.
+## Descripción breve del proyecto
+Este proyecto es una aplicación desarrollada en Angular correspondiente a la Tarea 4 de la Diplomatura. El proyecto implementa una estructura modular, manejo de rutas, *lazy loading* para distintos módulos (como Productos y Usuarios) y la estructuración de componentes para una aplicación web escalable.
 
-## Development server
+## Instrucciones para clonar, instalar dependencias y ejecutar
 
-To start a local development server, run:
+1. **Clonar el repositorio:**
+   ```bash
+   git clone <URL_DEL_REPOSITORIO>
+   cd tarea-4
+   ```
 
-```bash
-ng serve
-```
+2. **Instalar dependencias:**
+   ```bash
+   npm install
+   ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+3. **Ejecutar la aplicación:**
+   ```bash
+   ng serve
+   ```
+   Luego, abre tu navegador y dirígete a `http://localhost:4200/`. La aplicación se recargará automáticamente si realizas cambios en el código.
 
-## Code scaffolding
+## Despliegue
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+* **Plataforma elegida:** Vercel
+* **Enlace a la aplicación publicada:** [https://tarea-4-neon.vercel.app/](https://tarea-4-neon.vercel.app/)
 
-```bash
-ng generate component component-name
-```
+## Créditos del autor
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+* **Nombre del estudiante:** Luciano Buceta
+* **Unidad:** Clase 4 (Tarea 4)
 
-```bash
-ng generate --help
-```
+## Fuentes y Bibliografía
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+* Documentación oficial de Angular: [https://angular.dev/](https://angular.dev/)
