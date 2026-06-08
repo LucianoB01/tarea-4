@@ -20,7 +20,7 @@ Este proyecto es una aplicación desarrollada en Angular correspondiente a la Ta
    ```bash
    ng serve
    ```
-   Luego, abre tu navegador y dirígete a `http://localhost:4200/`. La aplicación se recargará automáticamente si realizas cambios en el código.
+   Luego, abre tu navegador y dirígete a `http://localhost:4200/`.
 
 ## Despliegue
 
